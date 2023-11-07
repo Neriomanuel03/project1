@@ -1,0 +1,109 @@
+body{
+    margin:0;
+    padding:0;
+        background: linear-gradient(to right, #4472C4, #02d5ff );
+    font-family: sans-serif;
+}
+
+.Login{
+    width: 320px;
+    height: 420px;
+    background:rgba(0,0,0,0.5);
+    color: #fff;
+    left:50%;
+    top:50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 30px ;
+}
+
+.imagem{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top:-60px;
+    left: calc(50% - 50px);
+
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.Login p{
+    margin:0;
+    padding: 0;
+    font-weight: bold;
+}
+.Login input{
+    width: 0%;
+    margin-bottom: 20px;
+}
+.Login input[type="text"], input[type="Password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 0px;
+    color: #fff;
+    font-size: 16px;
+}
+.Login input[type="submit"]{
+    border: none;
+    width: 50%;
+    outline: none;
+    background: #1c8adb;
+    font-size: 23px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+.Login input[type="submit"]:hover{
+    cursor: pointer;
+    background: #39dc79;
+    color:#fff;
+}
+.Login a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.Login a:hover{
+    color:#39dc79 ;
+}
+
+#submenu{
+    display: nome;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
